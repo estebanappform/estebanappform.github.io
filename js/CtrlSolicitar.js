@@ -5,6 +5,6 @@ export class CtrlSolicitar {
     if (!nombreSinEspacios) {
       throw new Error("Falta proporcinar el nombre.");
     }  
-    return `Hola ${nombreSinEspacios}.`;
+    return `saludo ${nombreSinEspacios}.`;
   } 
 }
